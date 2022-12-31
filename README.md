@@ -6,7 +6,7 @@ Holly Green is a close contact of Ojay Donaldson, and Ojay Donaldson is a close 
 then there are three (3) degrees of separation between Rose Gallenger and Gina Kingston. In relation 
 to geographical llocations, two users are said to be from the same  location if they both share one 
 of all of the following: school, work or community.
-The following operation can be done with regards to the network created from the file data:
+<br>The following operation can be done with regards to the network created from the file data:
 - Read and display users data
 - Update a users information and activities in bothe the network and files
 - Deletea user from both the network and the files.
