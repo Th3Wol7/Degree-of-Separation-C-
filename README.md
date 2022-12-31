@@ -5,12 +5,12 @@ same geographical location. For instance, if Rose Gallenger is a close contact o
 Holly Green is a close contact of Ojay Donaldson, and Ojay Donaldson is a close contact of Gina Kingston, 
 then there are three (3) degrees of separation between Rose Gallenger and Gina Kingston. In relation 
 to geographical llocations, two users are said to be from the same  location if they both share one 
-of all of the following: school, work or community.
+of all of the following: school, work or community. These person are clasiffied as close friends.
 <br>The following operation can be done with regards to the network created from the file data:
-- Read and display users data
-- Update a users information and activities in bothe the network and files
-- Deletea user from both the network and the files.
-- Suggest activities of the users friends/close friends to the current user.
+- Read and display user's data
+- Update a user's information and activities in both the network and files
+- Delete a user from both the network and the files.
+- Suggest activities of the user's friends/close friends to the current user.
 - Find and display the any link and degree of seperation between the current user and any random user that exists in the network. 
 
 
