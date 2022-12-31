@@ -16,8 +16,6 @@ of all of the following: school, work or community. These person are clasiffied 
 
 ## Getting Started
 
-Instructions for getting a copy of the project up and running on your local machine for development and testing purposes.
-
 You are reuired have a suitble c/c++ compiler installed on your machine or an 
 Integrated Development Environment that has it's own built in C/C++ compiler
 in order to compile and run this code. You can compile and run this software 
@@ -36,5 +34,8 @@ Reommended IDEs:
 Text Editors:
 - Atom Text Editor
 - NotePad++
+
+Once you have an environment in which you can compile and run a c++ program you should have no problem with testing
+as there are no dependecies required that you would need to source ouside of the c/c++ library.
 
 
