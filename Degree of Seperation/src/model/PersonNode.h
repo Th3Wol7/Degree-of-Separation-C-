@@ -101,10 +101,16 @@ public:
 
 	//This method works the same as implementing the methods of the comparable
 	//interface in Java when extended by a class
-	bool operator == (const PersonNode& obj) {
+	bool operator == (const PersonNode& obj) const{
 			 return getData().getFirstName() == obj.getData().getFirstName();
 					 this->getData().getLastName() == obj.getData().getLastName();
 	}
+
+	bool operator< (const PersonNode& other)  const {
+	    // Return true if this object is "less than" the other object, false otherwise
+		return getData().getFirstName() < other.getData().getFirstName();
+							 this->getData().getLastName() < other.getData().getLastName();
+	  }
 
 };
 

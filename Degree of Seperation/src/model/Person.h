@@ -155,9 +155,13 @@ public:
 	 return this->getFirstName().compareTo(obj->getFirstName());
 	 }*/
 
-	bool operator == (const Person& obj) {
+	bool operator == (const Person& obj) const{
 		 return this->getFirstName() == obj.firstName && this->getLastName() == obj.lastName;
 	}
+
+	bool operator < (const Person& obj) const{
+			 return this->getFirstName() < obj.getFirstName() && this->getLastName() < obj.getLastName();
+		}
 
 };
 

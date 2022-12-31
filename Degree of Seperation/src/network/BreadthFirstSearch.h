@@ -94,7 +94,6 @@ public:
 	}
 
 	// Computes and prints shortest path
-private:
 	string traceRoute(string output) {
 		list<PersonNode> route = list<PersonNode>();
 		for (auto node : printer) {

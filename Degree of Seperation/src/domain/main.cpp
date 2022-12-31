@@ -27,8 +27,8 @@ using namespace std;
 int main() {
 	string fName, lName;
 	int choice;
-	SocialNetwork *network;
-	Person *user, *target;
+	SocialNetwork *network = new SocialNetwork();
+	Person *user= new Person(), *target = new Person();
 	network->getSocialNet().createNetwork();
 	cout << "============Welcome to Social Connect=========" << endl;
 
