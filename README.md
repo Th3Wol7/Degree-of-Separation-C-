@@ -21,7 +21,7 @@ using a suitable IDE, Texteditor or the command
 line to be able to compile and run a C++ program on your machine.
 Compileres:
 - MINGW C/C++ Compiler
-- CW
+- C/GCC Compiler for Windows
 
 Reommended IDEs:
 - Visual Studio 2022
