@@ -1,13 +1,17 @@
 # Degree-of-Separation-C++
-This project creates a network from a list of data in a file and calculates the degree of separation between 
+This project involves the creation a network from a list of data in a file and calculates the degree of separation between 
 2 random person. A link is made between 2 users based on their friendship or by being located within the 
 same geographical location. For instance, if Rose Gallenger is a close contact of Holly Green, and 
 Holly Green is a close contact of Ojay Donaldson, and Ojay Donaldson is a close contact of Gina Kingston, 
 then there are three (3) degrees of separation between Rose Gallenger and Gina Kingston. In relation 
 to geographical llocations, two users are said to be from the same  location if they both share one 
 of all of the following: school, work or community.
-
-It allows you to perfrom all CRUD operations in relation to a user in the network.
+The following operation can be done with regards to the network created from the file data:
+- Read and display users data
+- Update a users information and activities in bothe the network and files
+- Deletea user from both the network and the files.
+- Suggest activities of the users friends/close friends to the current user.
+- Find and display the any link and degree of seperation between the current user and any random user that exists in the network. 
 
 
 ## Getting Started
