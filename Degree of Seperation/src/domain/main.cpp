@@ -122,34 +122,5 @@ int main() {
 		break;
 	}
 
-	string firstName, lastName, Phone;
-	string email, community, school, employer, privacy;
-	list<string> activity = { };
-
-	try {
-		ifstream inFromFile("..resource Files/PersonFile.csv", ios::in);
-
-		if (inFromFile.fail()) {
-			throw runtime_error("File cannot be access!");
-		}
-/*
-		inFromFile << firstName << lastName << Phone << email << community
-		<< school << employer << privacy;
-
-		while (!inFromFile.eof()) //read the file until you reach the end-of-file
-		{
-			Person p1(firstName, lastName, Phone, email, community, school,
-			 employer, privacy, activity);
-
-			 p1.tostring();
-
-			 inFromFile << firstName << lastName << Phone << email << community <<
-			 school << employer << privacy;
-		}*/
-		inFromFile.close();
-	} catch (runtime_error &ex) {
-		cerr << ex.what() << endl;
-	}
-
 	return 0;
 }
