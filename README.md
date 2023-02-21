@@ -36,6 +36,6 @@ Text Editors:
 - NotePad++
 
 Once you have an environment in which you can compile and run a c++ program you should have no problem with testing
-as there are no dependecies required that you would need to source ouside of the c/c++ library.
+as there are no dependecies required that you would need to source outside of the c/c++ library.
 
 
